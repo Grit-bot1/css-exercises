@@ -1,0 +1,23 @@
+p.odd, p.big {
+    background-color: #FFC0CB;
+    font-family: Verdana, 'Dejavu sans' , sans-serif;
+    
+
+
+}
+
+#one {
+    color: blue;
+    font-size: 36px;
+}
+
+.two {
+    font-size: 24px;
+    background-color: #90EE90;
+    font-weight: bold;
+}
+
+p.big {
+font-size: 24px;
+
+}
