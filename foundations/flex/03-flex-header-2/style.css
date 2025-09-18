@@ -9,6 +9,10 @@ body {
 }
 
 .header {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  align-items: center;
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
@@ -22,11 +26,26 @@ body {
   height: 48px;
 }
 
+.left, .right {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 8px;
+}
+
 .logo {
+  
   color: rebeccapurple;
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
+  
 }
 
 button {
@@ -35,6 +54,8 @@ button {
   background: rebeccapurple;
   color: white;
   padding: 8px 24px;
+
+  
 }
 
 a {
